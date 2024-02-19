@@ -1,0 +1,39 @@
+body {
+    margin: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    width: 150px;
+    box-shadow: 1px 1px 2px #000000;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #14213d;
+    color: #e5e5e5;
+    border-top: 6px solid #fca311;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+
+.zoom {
+
+  transition: transform .2s; /* Animation */
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
